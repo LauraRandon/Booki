@@ -811,12 +811,6 @@ header {
     .h2-section5 {
         margin-left: 35px;
     }
-    .fa-chart-line::before {
-        
-    }
-    .cards-section5 {
-        
-    }
     .card5 {
         width: 334px;
         height: 144px;
@@ -831,9 +825,6 @@ header {
     .h2-section4 {
         margin-left: 35px;
     }
-    .cards-section4 {
-        
-    }
     .card4 {
         width: 335px;
         height: 199px;
@@ -841,9 +832,6 @@ header {
     .img-card-section4 {
         width: 335px;
         height: 124px;
-    }
-    .note {
-       
     }
     .texte-section4 {
         display: none;
