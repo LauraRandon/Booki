@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: "Raleway", sans-serif;
     color: black;
@@ -140,9 +143,9 @@ header {
 
     margin-top: -49px;
     margin-left: 200px;
+    transition: all .2s ease-in-out;
 }
 .bouton-recherche:hover {
-    transition: all .3s;
     background-color: #0046af;
 }
 .fa-magnifying-glass::before {
@@ -186,6 +189,8 @@ header {
 
     border: 2px solid #D9D9D9;
     border-radius: 25px;
+    transition: all .2s ease-in-out;
+
 }
 .fa-money-bill-wave:before, .fa-person:before, .fa-heart:before, .fa-dog:before {
     display: flex;
@@ -294,6 +299,7 @@ header {
 
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFFFF;
+    transition: all .2s ease-in-out;
 }
 .card4:hover {
     transform: scale(1.05);
@@ -395,6 +401,7 @@ header {
 
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFFFF;
+    transition: all .2s ease-in-out;
 }
 .card5:hover {
     transform: scale(1.05);
@@ -473,6 +480,7 @@ header {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-radius: 20px;
     background: #FFFFFF;
+    transition: all .2s ease-in-out;
 }
 .card6:hover {
     transform: scale(1.05);
@@ -525,6 +533,7 @@ header {
     font-size: 16px;
     line-height: 19px;
     padding-bottom: 12px;
+    transition: all .2s ease-in-out;
 }
 .texte-section7:hover {
     transition: all 0.3s ease-in-out;
